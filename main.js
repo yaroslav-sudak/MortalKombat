@@ -78,7 +78,7 @@ function Draw(){
 
 function changeHP(player){
 	const $playerLife = document.querySelector('.player' + player.player + ' .life');
-	player.hp -= Math.ceil(Math.random() * 20);
+	player.hp -= randomHP();
 	$playerLife.style.width = player.hp + '%';
 }
 $randomButton.addEventListener('click', function(){
@@ -113,6 +113,12 @@ $randomButton.addEventListener('click', function(){
 	}
 })
 
+function randomHP(){
+
+	let r = Math.ceil(Math.random() * 20);
+
+	return r;
+}
 appendChild($arenas, player1);
 appendChild($arenas, player2);
 
