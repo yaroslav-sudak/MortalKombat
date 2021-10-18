@@ -1,8 +1,6 @@
 const $arenas = document.querySelector('.arenas');
 const $randomButton = document.querySelector('.button');
 const $reloadButton = createReloadButton();
-
-
 const player1 = {
 	player: 1,
 	name: "SCORPION",
@@ -31,7 +29,7 @@ function createElement(tag, className){
 	if(className){
 		$tag.classList.add(className);
 
-		
+
 	}
 	return $tag;
 }
@@ -116,6 +114,9 @@ function randomHP(max){
 	return r;
 }
 
+$reloadButton.addEventListener('click', function(){
+	window.location.reload();
+})
 
 $randomButton.addEventListener('click', function(){
 	player1.changeHP(randomHP(20));
@@ -139,10 +140,6 @@ $randomButton.addEventListener('click', function(){
 		$randomButton.disabled = true;
 		$randomButton.classList.add('hiden');
 	}
-})
-
-$reloadButton.addEventListener('click', function(){
-	window.location.reload();
 })
 
 
