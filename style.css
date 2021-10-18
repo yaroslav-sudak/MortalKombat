@@ -220,7 +220,6 @@ body {
     align-items: center;
     z-index: 1000;
 }
-
 .button {
     display: block;
     position: relative;
@@ -260,7 +259,6 @@ body {
 .button:active::after {
     top: 1px;
 }
-
 .loseTitle {
     position: absolute;
     top: 25%;
@@ -272,8 +270,8 @@ body {
     color: white;
     font-family: "Mortal Kombat 3";
 }
-.hiden{
-    display: none;
+.hide{
+    visibility: hidden;
 }
 .reloadWrap {
     position: absolute;
