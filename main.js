@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
-console.log("Fight");
-=======
 const $arenas = document.querySelector('.arenas');
 const $randomButton = document.querySelector('.button');
 const $reloadButton = createReloadButton();
@@ -151,4 +148,3 @@ $reloadButton.addEventListener('click', function(){
 
 appendChild($arenas, player1);
 appendChild($arenas, player2);
->>>>>>> Stashed changes
