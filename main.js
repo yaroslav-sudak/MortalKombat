@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
-console.log("Fight");
-=======
 const $arenas = document.querySelector('.arenas');
 const $formFight = document.querySelector('.control');
 const $randomButton = document.querySelector('.button');
@@ -179,4 +176,3 @@ $randomButton.addEventListener('click', function(){
 
 appendChild($arenas, player1);
 appendChild($arenas, player2);
->>>>>>> Stashed changes

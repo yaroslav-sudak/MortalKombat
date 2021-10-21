@@ -215,9 +215,6 @@ body {
 .fight img {
     width: 100%;
 }
-
-<<<<<<< Updated upstream
-=======
 .button {
     display: block;
     position: relative;
@@ -407,4 +404,3 @@ input[type=radio]:checked + label > span:hover {
 .hiden{
     display: none;
 }
->>>>>>> Stashed changes
